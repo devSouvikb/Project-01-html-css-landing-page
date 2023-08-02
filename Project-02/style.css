@@ -1,0 +1,26 @@
+/* glabal styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  margin: 0 100px;
+  font-family: "Red Rose", cursive;
+  background-image: linear-gradient(to bottom, #242b42cc, #242b42cc),
+    url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --primary-color: #ff505f;
+  --secondary-color: #ffc233;
+}
