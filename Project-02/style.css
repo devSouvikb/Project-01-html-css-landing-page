@@ -24,3 +24,38 @@ ul {
   --primary-color: #ff505f;
   --secondary-color: #ffc233;
 }
+
+/* navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.list {
+  color: var(--secondary-color);
+  display: flex;
+  gap: 60px;
+}
+
+.list-item {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.button-small {
+  font-family: "Red Rose", cursive;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+  padding: 8px 24px;
+  cursor: pointer;
+}
