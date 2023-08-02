@@ -59,3 +59,43 @@ ul {
   padding: 8px 24px;
   cursor: pointer;
 }
+
+/* hero section */
+.hero {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  font-family: "Dela Gothic One", sans-serif;
+  color: var(--secondary-color);
+  font-size: 80px;
+  max-width: 1000px;
+  text-align: center;
+  line-height: 100px;
+  letter-spacing: 3px;
+  margin-bottom: 40px;
+}
+
+.button-large {
+  font-family: "Red Rose", cursive;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  font-size: 24px;
+  color: #ffffff;
+  border: none;
+  padding: 14px 38px;
+  cursor: pointer;
+}
+
+.bottom {
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.bottom img {
+  width: 120px;
+}
