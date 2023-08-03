@@ -66,3 +66,25 @@ ul {
   font-weight: 700;
   cursor: pointer;
 }
+
+/* hero section */
+.hero {
+  height: 30vh;
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left {
+  font-size: 48px;
+  line-height: 90px;
+  width: 600px;
+}
+
+.hero-right {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--txt-color);
+  width: 420px;
+}
