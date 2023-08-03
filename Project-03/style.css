@@ -25,3 +25,44 @@ ul {
   --txt-color: #c3bfb2;
   --bg-color: #2b2922;
 }
+
+/* navbar */
+.navbar {
+  height: 15vh;
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.list-item {
+  color: var(--txt-color);
+  cursor: pointer;
+}
+
+.list-item:first-child {
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.list-item-btn {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding: 10px 24px;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
