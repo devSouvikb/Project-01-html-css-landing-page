@@ -70,3 +70,33 @@ ul {
   font-family: "Poppins", sans-serif;
   cursor: pointer;
 }
+
+/* banner */
+.banner-container {
+  height: 80vh;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 340px;
+}
+
+.heading-text {
+  font-size: 54px;
+  color: var(--secondary-color);
+  line-height: 70px;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+.description {
+  color: var(--txt-color);
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.banner-img {
+  height: 550px;
+}
