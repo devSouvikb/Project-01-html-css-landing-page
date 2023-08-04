@@ -25,3 +25,48 @@ ul {
   --txt-color: #9d9d9d;
   --active-color: #202020;
 }
+
+/* navbar */
+.navbar-container {
+  height: 20vh;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  gap: 40px;
+}
+
+.list-item {
+  color: var(--txt-color);
+  cursor: pointer;
+}
+
+.active {
+  color: var(--active-color);
+  font-weight: 600;
+}
+
+.nav-button {
+  color: #ffffff;
+  background-color: var(--primary-color);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+}
