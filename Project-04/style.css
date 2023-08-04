@@ -1,0 +1,27 @@
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --primary-color: #5955b3;
+  --secondary-color: #3c2f60;
+  --txt-color: #9d9d9d;
+  --active-color: #202020;
+}
