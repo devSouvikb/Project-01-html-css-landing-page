@@ -75,3 +75,46 @@ ul {
   font-weight: 500;
   cursor: pointer;
 }
+
+/* hero section */
+.hero {
+  height: 90vh;
+  background: linear-gradient(to top, #00000072, #00000017),
+    url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--txt-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  /* line-height: 60px; */
+  width: 800px;
+  text-align: center;
+}
+
+.hero-description {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.button-large {
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: var(--txt-color);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
