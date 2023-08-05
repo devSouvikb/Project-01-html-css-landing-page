@@ -1,0 +1,120 @@
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Montserrat', sans-serif; */
+
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+:root {
+  --primary-color: #ba0cc5;
+  --txt-color: #ffffff;
+  --nav-color: #000000;
+}
+
+/* navbar */
+.navbar {
+  height: 10vh;
+  padding: 0 100px;
+  background-color: var(--nav-color);
+  color: var(--txt-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.line {
+  height: 40px;
+  width: 1px;
+  background-color: var(--txt-color);
+}
+
+.list {
+  display: flex;
+  gap: 40px;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+.button-small {
+  background-color: var(--primary-color);
+  color: var(--txt-color);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* hero section */
+.hero {
+  height: 90vh;
+  background: linear-gradient(to top, #00000072, #00000017),
+    url(./assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--txt-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62px;
+  font-weight: 800;
+  /* line-height: 60px; */
+  width: 800px;
+  text-align: center;
+}
+
+.hero-description {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.button-large {
+  font-size: 20px;
+  background-color: var(--primary-color);
+  color: var(--txt-color);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
