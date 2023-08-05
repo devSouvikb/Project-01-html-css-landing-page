@@ -27,3 +27,51 @@ ul {
   --txt-color: #ffffff;
   --nav-color: #000000;
 }
+
+/* navbar */
+.navbar {
+  height: 10vh;
+  padding: 0 100px;
+  background-color: var(--nav-color);
+  color: var(--txt-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.line {
+  height: 40px;
+  width: 1px;
+  background-color: var(--txt-color);
+}
+
+.list {
+  display: flex;
+  gap: 40px;
+}
+
+.list-item {
+  cursor: pointer;
+}
+
+.button-small {
+  background-color: var(--primary-color);
+  color: var(--txt-color);
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
