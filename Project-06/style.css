@@ -17,3 +17,48 @@ body {
   --txt-primary-color: #101010;
   --txt-secondary-color: #484848;
 }
+
+/* navbar */
+nav {
+  margin: 0 100px;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  font-family: "Allerta", sans-serif;
+  color: var(--txt-primary-color);
+  gap: 60px;
+}
+
+.nav-item {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--txt-primary-color);
+  margin-top: 3px;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-icons img {
+  cursor: pointer;
+}
