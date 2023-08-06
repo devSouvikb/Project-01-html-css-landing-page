@@ -140,3 +140,31 @@ h4 {
 .plant-img {
   height: 590px;
 }
+
+/* dots */
+.dot-container {
+  position: absolute;
+  top: 280px;
+  left: 35px;
+}
+
+.dot {
+  margin: 25px 20px;
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background: #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dot-active::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  bottom: -2px;
+  left: -2px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+}
