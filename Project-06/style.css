@@ -62,3 +62,81 @@ nav {
 .nav-icons img {
   cursor: pointer;
 }
+
+/* main section */
+main {
+  height: 80vh;
+  margin-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.txt-container {
+  width: 580px;
+}
+
+.heading {
+  font-family: "Allerta", sans-serif;
+  font-size: 124px;
+  font-weight: 700;
+}
+
+.txt-para {
+  font-size: 26px;
+  color: var(--txt-primary-color);
+}
+
+.para-one {
+  margin-bottom: 10px;
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  width: 200px;
+  border-radius: 60px;
+  padding: 10px 14px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.btn-icon {
+  margin-left: 10px;
+  height: 22px;
+}
+
+.bottom-container {
+  margin-top: 80px;
+  display: flex;
+  gap: 30px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#feeding {
+  margin-top: 12px;
+}
+
+h4 {
+  font-family: "Allerta", sans-serif;
+  font-size: 20px;
+  color: var(--txt-primary-color);
+  font-weight: 700;
+}
+
+.text {
+  color: var(--txt-secondary-color);
+  margin-top: 5px;
+}
+
+.plant-img {
+  height: 590px;
+}
