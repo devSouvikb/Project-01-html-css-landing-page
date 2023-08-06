@@ -1,0 +1,19 @@
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Abel", sans-serif;
+  background-color: #f4f3f8;
+  position: relative;
+}
+
+:root {
+  --primary-color: #466d50;
+  --txt-primary-color: #101010;
+  --txt-secondary-color: #484848;
+}
