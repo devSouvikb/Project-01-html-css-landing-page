@@ -25,3 +25,40 @@ ul {
   --secondary-color: #636895;
   --btn-color: linear-gradient(to right, #965cf2, #ff8adc);
 }
+
+/* navbar */
+nav {
+  margin: 0 100px;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-items {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  font-weight: 700;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.signin-btn {
+  padding: 8px 20px;
+  border-radius: 24px;
+  border: none;
+  background: var(--btn-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 700;
+  cursor: pointer;
+}
