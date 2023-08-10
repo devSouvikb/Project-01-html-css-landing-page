@@ -23,3 +23,50 @@ body {
 ul {
   list-style: none;
 }
+
+/* navbar */
+nav {
+  height: 20vh;
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  position: relative;
+  padding-bottom: 3vh;
+}
+
+.nav-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+}
+
+ul {
+  display: flex;
+  gap: 60px;
+}
+
+li {
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-item-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
