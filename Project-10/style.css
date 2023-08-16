@@ -65,3 +65,163 @@ nav {
   color: var(--primary-color);
   font-weight: 700;
 }
+
+/* main section */
+main {
+  height: 80vh;
+  padding-right: 100px;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 650px;
+}
+
+.photo-one {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  z-index: -1;
+}
+
+.top-container {
+  display: flex;
+}
+
+.heading {
+  display: flex;
+}
+
+h1 {
+  font-size: 120px;
+  color: var(--primary-color);
+  font-weight: 900;
+  font-family: "Merriweather", serif;
+  line-height: 125px;
+}
+
+.h1-style {
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--primary-color);
+}
+
+.h1-style2 {
+  margin-left: 120px;
+}
+
+.sub-heading {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  align-self: flex-end;
+  margin-left: 40px;
+  margin-bottom: 10px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-left: 110px;
+  margin-top: -15px;
+}
+
+.icon-container > img {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+}
+
+.btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+button {
+  padding: 12px 45px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.bottom-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.items {
+  width: 220px;
+  list-style: none;
+}
+
+.item-active {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.item {
+  color: var(--secondary-color);
+  font-size: 18px;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  left: -40px;
+  top: 6px;
+  display: block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+
+.item-active::before {
+  background-color: var(--primary-color);
+}
+
+.item::after {
+  content: "";
+  position: absolute;
+  left: -34px;
+  top: 20px;
+  display: block;
+  height: 36px;
+  width: 2px;
+  background-color: var(--secondary-color);
+}
+
+.quote-container {
+  margin-left: 80px;
+}
+
+.quote-icon {
+  font-size: 40px;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.quote-txt {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  width: 350px;
+}
+
+.photo-two {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.arrow-img {
+  height: 120px;
+  margin-top: 100px;
+  margin-left: 60px;
+}
