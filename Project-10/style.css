@@ -1,0 +1,25 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Poppins:wght@400;500;600;700&display=swap");
+/* font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif; */
+
+/* global styles */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-color: #333333;
+  --secondary-color: #898888;
+  --bg-color: #f5f2f0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--bg-color);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+}
