@@ -23,3 +23,45 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+/* navbar */
+nav {
+  height: 20vh;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  cursor: pointer;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-list::before {
+  content: "";
+  position: relative;
+  height: 2px;
+  width: 350px;
+  right: -20px;
+  background-color: var(--primary-color);
+}
+
+.nav-item {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.active {
+  color: var(--primary-color);
+  font-weight: 700;
+}
