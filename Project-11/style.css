@@ -49,3 +49,44 @@ ul {
 li {
   cursor: pointer;
 }
+
+/* hero section */
+main {
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: var(--txt-primary-color);
+}
+
+p {
+  font-size: 20px;
+  color: var(--txt-secondary-color);
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.img-top {
+  margin-bottom: 20px;
+}
+
+.img-1 {
+  margin-right: 20px;
+}
