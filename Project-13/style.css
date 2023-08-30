@@ -130,3 +130,22 @@ nav {
   position: relative;
   top: 20px;
 }
+
+/* ----------- companies section ----------- */
+.companies {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.company-items {
+  font-family: "Righteous", cursive;
+  color: var(--primary-txt-color);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.company-items + .company-items {
+  margin-left: 60px;
+}
