@@ -1,0 +1,44 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Righteous&display=swap");
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--primary-txt-color);
+}
+
+:root {
+  --primary-color: #4516fe;
+  --bg-color: #f8f8fa;
+  --primary-txt-color: #010101;
+  --secondary-txt-color: rgba(0, 0, 0, 0.7);
+  --tertiary-txt-color: rgba(255, 255, 255, 0.8);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+  font-size: 16px;
+}
