@@ -1,0 +1,151 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Righteous&display=swap");
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Righteous', cursive; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--primary-txt-color);
+}
+
+:root {
+  --primary-color: #4516fe;
+  --bg-color: #f8f8fa;
+  --primary-txt-color: #010101;
+  --secondary-txt-color: rgba(0, 0, 0, 0.7);
+  --tertiary-txt-color: rgba(255, 255, 255, 0.8);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+/* -------------- header -------------- */
+header {
+  height: 80%;
+  width: 100%;
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+/* --------------- navbar --------------- */
+nav {
+  height: 15%;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-item a {
+  color: #ffffff;
+}
+
+.nav-btn-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-btn-secondary,
+.nav-btn-primary {
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+
+.nav-btn-secondary {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.nav-btn-primary {
+  background-color: #ffffff;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.nav-icon {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* ---------------- hero ---------------- */
+.hero {
+  height: 75%;
+  width: 100%;
+  padding-left: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.hero-left-container {
+  margin-top: 80px;
+}
+
+.hero-left-container h1 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-left-container p {
+  color: var(--tertiary-txt-color);
+}
+
+.hero-img {
+  position: relative;
+  top: 20px;
+}
+
+/* ----------- companies section ----------- */
+.companies {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+
+.company-items {
+  font-family: "Righteous", cursive;
+  color: var(--primary-txt-color);
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.company-items + .company-items {
+  margin-left: 60px;
+}
