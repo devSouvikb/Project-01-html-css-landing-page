@@ -338,3 +338,29 @@ input::placeholder {
 form button {
   border-radius: 20px !important;
 }
+
+/* ------------ footer section ------------ */
+.footer-section {
+  width: 100%;
+  padding: 60px 80px;
+  background-color: var(--primary-color);
+  color: var(--tertiary-txt-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left .list,
+.logos-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.footer-logos + .footer-logos {
+  margin-left: 30px;
+}
+
+.list-items,
+.footer-logos {
+  cursor: pointer;
+}
