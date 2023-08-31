@@ -22,8 +22,8 @@ body {
   --primary-color: #4516fe;
   --bg-color: #f8f8fa;
   --primary-txt-color: #010101;
-  --secondary-txt-color: rgba(0, 0, 0, 0.7);
-  --tertiary-txt-color: rgba(255, 255, 255, 0.8);
+  --secondary-txt-color: #000000cc;
+  --tertiary-txt-color: #ffffffcc;
 }
 
 li {
@@ -34,11 +34,27 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 img {
   max-width: 100%;
 }
 
-button {
+button,
+input {
   font-family: inherit;
   font-size: 16px;
 }
