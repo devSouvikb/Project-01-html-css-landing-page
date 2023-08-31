@@ -299,3 +299,42 @@ nav {
   background-color: #ffffff;
   color: var(--primary-color);
 }
+
+/*------------ download section------------ */
+.download-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-content span {
+  font-weight: 400;
+  color: var(--secondary-txt-color);
+}
+
+form {
+  width: 500px;
+  background-color: #e9edff;
+  padding: 8px 10px 8px 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: none;
+  background-color: #e9edff;
+  padding: 4px 12px;
+}
+
+input::placeholder {
+  color: var(--secondary-txt-color);
+}
+
+form button {
+  border-radius: 20px !important;
+}
