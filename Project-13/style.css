@@ -22,8 +22,8 @@ body {
   --primary-color: #4516fe;
   --bg-color: #f8f8fa;
   --primary-txt-color: #010101;
-  --secondary-txt-color: rgba(0, 0, 0, 0.7);
-  --tertiary-txt-color: rgba(255, 255, 255, 0.8);
+  --secondary-txt-color: #000000cc;
+  --tertiary-txt-color: #ffffffcc;
 }
 
 li {
@@ -34,11 +34,27 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 img {
   max-width: 100%;
 }
 
-button {
+button,
+input {
   font-family: inherit;
   font-size: 16px;
 }
@@ -83,6 +99,7 @@ nav {
   border-radius: 4px;
   padding: 2px 8px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-btn-secondary {
@@ -90,10 +107,19 @@ nav {
   color: #ffffff;
 }
 
+.nav-btn-secondary:hover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+}
+
 .nav-btn-primary {
   background-color: #ffffff;
   color: var(--primary-color);
   font-weight: 500;
+}
+
+.nav-btn-primary:hover {
+  background-color: #ffffffe6;
 }
 
 .nav-icon {
@@ -148,4 +174,193 @@ nav {
 
 .company-items + .company-items {
   margin-left: 60px;
+}
+
+/* -------------- api section -------------- */
+.api {
+  width: 90%;
+  margin: 120px auto;
+}
+
+.cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-active {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 10px #0000001a;
+}
+
+.card-active,
+.card {
+  padding: 40px 20px;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 10px #0000001a;
+}
+
+.card-head-active {
+  color: var(--primary-color);
+}
+
+.card-head,
+.card-head-active {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-body {
+  color: var(--secondary-txt-color);
+}
+
+/* ------------- blog section ------------- */
+.blog-heading,
+.blog-cards {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.blog-cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-card {
+  display: flex;
+}
+
+.blog-content {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 10px #0000001a;
+  padding: 40px 30px 0 50px;
+  border-radius: 0px 12px 12px 0px;
+}
+
+.blog-content h6 {
+  color: var(--primary-color);
+}
+
+.blog-content small {
+  color: var(--secondary-txt-color);
+}
+
+.blog-bottom {
+  display: flex;
+  gap: 10px;
+  position: relative;
+  top: 30px;
+}
+
+/* -------------- faq section -------------- */
+.faq-section {
+  width: 100%;
+  margin: 80px 0;
+  padding-left: 80px;
+  background-color: #e9edff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq-content p {
+  margin-top: 15px;
+  color: var(--secondary-txt-color);
+}
+
+.faq-content h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  outline: 2px solid var(--primary-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+}
+
+/*------------ download section------------ */
+.download-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.download-content span {
+  font-weight: 400;
+  color: var(--secondary-txt-color);
+}
+
+form {
+  width: 500px;
+  background-color: #e9edff;
+  padding: 8px 10px 8px 30px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: none;
+  background-color: #e9edff;
+  padding: 4px 12px;
+}
+
+input::placeholder {
+  color: var(--secondary-txt-color);
+}
+
+form button {
+  border-radius: 20px !important;
+}
+
+/* ------------ footer section ------------ */
+.footer-section {
+  width: 100%;
+  padding: 60px 80px;
+  background-color: var(--primary-color);
+  color: var(--tertiary-txt-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left .list,
+.logos-list {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.footer-logos + .footer-logos {
+  margin-left: 30px;
+}
+
+.list-items,
+.footer-logos {
+  cursor: pointer;
 }
