@@ -99,6 +99,7 @@ nav {
   border-radius: 4px;
   padding: 2px 8px;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-btn-secondary {
@@ -106,10 +107,19 @@ nav {
   color: #ffffff;
 }
 
+.nav-btn-secondary:hover {
+  background-color: #ffffff;
+  color: var(--primary-color);
+}
+
 .nav-btn-primary {
   background-color: #ffffff;
   color: var(--primary-color);
   font-weight: 500;
+}
+
+.nav-btn-primary:hover {
+  background-color: #ffffffe6;
 }
 
 .nav-icon {
