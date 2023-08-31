@@ -175,3 +175,49 @@ nav {
 .company-items + .company-items {
   margin-left: 60px;
 }
+
+/* -------------- api section -------------- */
+.api {
+  width: 90%;
+  margin: 120px auto;
+}
+
+.cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.card-active {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 10px #0000001a;
+}
+
+.card-active,
+.card {
+  padding: 40px 20px;
+  border-radius: 12px;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 10px #0000001a;
+}
+
+.card-head-active {
+  color: var(--primary-color);
+}
+
+.card-head,
+.card-head-active {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.card-body {
+  color: var(--secondary-txt-color);
+}
