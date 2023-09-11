@@ -146,3 +146,70 @@ body::-webkit-scrollbar-thumb {
   border: 2px solid var(--primary-color);
   border-radius: 20px;
 }
+
+/* -------------- header -------------- */
+header {
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* -------------- navbar -------------- */
+nav {
+  height: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links-container,
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.active-item a {
+  color: var(--primary-txt-color);
+}
+
+.nav-item {
+  transition: 0.2s ease-in-out;
+}
+
+.nav-item:hover {
+  transform: translateY(-5px);
+}
+
+.menue-icon {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+nav .menue-icon {
+  display: none;
+}
+
+/* ------------ hero section ------------ */
+.hero {
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left-container {
+  width: 50%;
+}
+
+.hero-left-container p {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.hero-right-container {
+  width: 45%;
+}
