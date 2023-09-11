@@ -374,3 +374,61 @@ nav .menue-icon {
 .price-card-head-active p {
   color: #ffffffb3;
 }
+
+/* ------------ about section ------------ */
+.about {
+  width: 80%;
+  margin: 160px auto;
+}
+
+.about-head-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.about-head-container p {
+  margin-top: 20px;
+}
+
+.about-body-container {
+  margin-top: 60px;
+}
+
+.about-cards-container + .about-cards-container {
+  margin-top: 40px;
+}
+
+.about-cards-container {
+  display: flex;
+  gap: 40px;
+}
+
+.about-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d2d2d2;
+  padding: 30px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.about-card:hover {
+  box-shadow: 5px 5px 10px 0px #00000026;
+}
+
+.about-card-txt {
+  color: var(--primary-txt-color);
+}
+
+.about-card-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.about-profile-heading {
+  color: var(--primary-txt-color);
+  font-weight: 600;
+}
