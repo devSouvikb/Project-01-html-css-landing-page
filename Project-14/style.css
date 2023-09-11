@@ -432,3 +432,44 @@ nav .menue-icon {
   color: var(--primary-txt-color);
   font-weight: 600;
 }
+
+/* -------------- cta section -------------- */
+.cta {
+  background: url(./assets/bg-img.svg) repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0;
+}
+
+.cta-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-txt-container {
+  width: 45%;
+}
+
+.cta-txt-container h2 {
+  color: #ffffff;
+}
+
+.cta-txt-container p {
+  color: #ffffffb3;
+  margin-top: 20px;
+}
+
+.btn-cta {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.btn-cta:hover {
+  background-color: #fff;
+  color: #4987e4;
+  box-shadow: 0px 5px 8px 2px #0554cc;
+}
