@@ -232,3 +232,22 @@ nav .menue-icon {
   margin-top: 30px;
   margin-bottom: 60px;
 }
+
+/* ------------ hosting section ------------ */
+.hosting {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hosting-left-container,
+.hosting-right-container {
+  width: 50%;
+}
+
+.hosting-left-container p {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
