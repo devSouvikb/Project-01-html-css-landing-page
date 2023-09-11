@@ -1,0 +1,148 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--body-bg-color);
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --body-bg-color: #f8f8fa;
+  --linear-gradient: linear-gradient(to bottom right, #09c5f9, #045fe9);
+  --primary-txt-color: #1a1a1a;
+  --secondary-txt-color: #798196;
+  --card-selected-color: #353535;
+  --card-icon-color: #1ddaa9;
+  --btn-shadows: #a7cbf4;
+  --primary-color: #3caffc;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-txt-color);
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-txt-color);
+}
+
+span {
+  color: var(--secondary-txt-color);
+}
+
+.price-card-icon {
+  color: var(--card-icon-color);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* ------------ txt styles ------------- */
+p {
+  color: var(--secondary-txt-color);
+  line-height: 30px;
+}
+
+h1 {
+  font-size: 54px;
+  font-weight: 700;
+  color: var(--primary-txt-color);
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--primary-txt-color);
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--primary-txt-color);
+}
+
+/* ------------ button styles ------------- */
+button {
+  font-family: inherit;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+button:hover {
+  box-shadow: 0px 5px 8px 2px var(--btn-shadows);
+}
+
+.btn-primary {
+  background: var(--linear-gradient);
+  color: #ffffff;
+  border: none;
+}
+
+.btn-secondary {
+  border: none;
+  position: relative;
+  border-radius: 8px;
+  background: var(--linear-gradient);
+  z-index: 1;
+}
+
+.btn-secondary::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  top: 2px;
+  bottom: 2px;
+  border-radius: 6px;
+  background-color: var(--body-bg-color);
+  z-index: -1;
+}
+
+.btn-secondary::after {
+  content: attr(data);
+  font-size: 18px;
+  font-weight: 600;
+  background: var(--linear-gradient);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* ------------ scrollbar styles ------------ */
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+}
