@@ -213,3 +213,22 @@ nav .menue-icon {
 .hero-right-container {
   width: 45%;
 }
+
+/* ------------ domain section ------------ */
+.domain {
+  width: 80%;
+  margin: 60px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.domain-left-container,
+.domain-right-container {
+  width: 50%;
+}
+
+.domain-right-container p {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
