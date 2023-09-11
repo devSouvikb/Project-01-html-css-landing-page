@@ -251,3 +251,40 @@ nav .menue-icon {
   margin-top: 30px;
   margin-bottom: 60px;
 }
+
+/* ------------ feature section ------------ */
+.feature {
+  width: 80%;
+  margin: 100px auto;
+  margin-bottom: 160px;
+}
+
+.feature-head-container {
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-cards-container + .feature-cards-container {
+  margin-top: 80px;
+}
+
+.feature-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-card + .feature-card {
+  margin-left: 40px;
+}
+
+.feature-card {
+  width: calc(100% / 3);
+}
+
+.feature-card h3 {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
