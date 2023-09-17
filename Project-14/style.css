@@ -528,3 +528,214 @@ footer {
 .social-icons-container img + img {
   margin-left: 10px;
 }
+
+/* ------------- media queries ------------- */
+@media (max-width: 426px) {
+  /* -------- global styles -------- */
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  /* ------------ header ------------ */
+  header {
+    width: 90%;
+  }
+
+  /* ------------ navbar ------------ */
+  nav {
+    height: 15%;
+  }
+
+  .nav-links-container {
+    display: none;
+  }
+
+  nav .menue-icon {
+    display: block;
+  }
+
+  /* ---------- hero section ---------- */
+  .hero {
+    height: 85%;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .hero-left-container,
+  .hero-right-container {
+    width: 100%;
+  }
+
+  .hero-left-container p {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .hero-right-container {
+    display: none;
+  }
+
+  /* -------- domain section -------- */
+  .domain {
+    width: 90%;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .domain-left-container,
+  .domain-right-container {
+    width: 100%;
+  }
+
+  .domain-right-container p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  /* -------- hosting section -------- */
+  .hosting {
+    width: 90%;
+    flex-direction: column-reverse;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .hosting-left-container,
+  .hosting-right-container {
+    width: 100%;
+  }
+
+  .hosting-left-container p {
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+
+  /* ---------- feature section ---------- */
+  .feature {
+    width: 90%;
+    margin-top: 0;
+    margin-bottom: 80px;
+  }
+
+  .feature-head-container {
+    flex-direction: column;
+    margin-bottom: 60px;
+    gap: 20px;
+  }
+
+  .feature-cards-container + .feature-cards-container {
+    margin-top: 60px;
+  }
+
+  .feature-cards-container {
+    flex-direction: column;
+  }
+
+  .feature-card + .feature-card {
+    margin-left: 0;
+    margin-top: 60px;
+  }
+
+  .feature-card {
+    width: 100%;
+  }
+
+  .feature-card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  /* ---------- price section ---------- */
+  .price-container {
+    width: 90%;
+  }
+
+  .price-cards-container {
+    flex-direction: column;
+  }
+
+  .price-card + .price-card {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  .price-card {
+    width: 100%;
+  }
+
+  .price-card-items {
+    padding-top: 20px;
+  }
+
+  .price-card-price {
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  /* ---------- about section ---------- */
+  .about {
+    width: 90%;
+    margin: 100px auto;
+  }
+
+  .about-head-container {
+    width: 100%;
+  }
+
+  .about-cards-container {
+    flex-direction: column;
+  }
+
+  /* ---------- cta section ---------- */
+  .cta-container {
+    width: 90%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta-txt-container {
+    width: 100%;
+  }
+
+  .btn-cta {
+    margin-top: 40px;
+  }
+
+  /* ------------- footer ------------- */
+  footer {
+    width: 90%;
+    padding: 80px 0 60px;
+    flex-direction: column;
+  }
+
+  .footer-left-container {
+    width: 300px;
+  }
+
+  .footer-left-container p {
+    width: 100%;
+  }
+
+  .footer-links-container h3 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  .footer-link + .footer-link {
+    margin-top: 10px;
+  }
+
+  .footer-links-container p + p {
+    margin-top: 6px;
+  }
+}
