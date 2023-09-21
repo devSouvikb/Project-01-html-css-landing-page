@@ -333,3 +333,72 @@ input {
 .team-btn-container {
   text-align: center;
 }
+
+/* -------------- footer -------------- */
+footer {
+  margin-top: 100px;
+  padding: 60px 0 100px;
+  background-color: var(--bg-color-dark);
+}
+
+.footer-head-container,
+.footer-bottom-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons-container {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  background-color: #ffffff99;
+  font-size: 20px;
+  color: #ffffff;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  background-color: var(--primary-color);
+}
+
+hr {
+  width: 80%;
+  margin: 40px auto 60px;
+  border: 1px solid #ffffff3f;
+}
+
+.footer-bottom-container {
+  color: var(--secondary-txt-color-light);
+}
+
+.footer-link-head {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--primary-txt-color-light);
+  letter-spacing: 1.5px;
+  margin-bottom: 15px;
+}
+
+.footer-links-container p + p {
+  margin-top: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer-links-container p + p:hover {
+  color: var(--primary-color);
+  transform: translatex(8px);
+}
