@@ -1,0 +1,109 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap");
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: var(--secondary-txt-color-dark);
+  background-color: #fbfbfb;
+}
+
+:root {
+  --primary-color: #8bb7a2;
+  --bg-color-dark: #10181d;
+  --bg-color-light: #636c79;
+  --primary-txt-color-dark: #010101;
+  --secondary-txt-color-dark: rgba(0, 0, 0, 0.7);
+  --primary-txt-color-light: #ffffff;
+  --secondary-txt-color-light: rgba(255, 255, 255, 0.7);
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menue-icon {
+  font-size: 36px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* heading styles */
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: var(--primary-txt-color-dark);
+}
+
+h1 {
+  font-size: 54px;
+  letter-spacing: 1.5px;
+  color: var(--primary-txt-color-light);
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 36px;
+}
+
+p {
+  line-height: 26px;
+}
+
+/* button styles */
+button {
+  padding: 12px 30px;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--primary-txt-color-light);
+  border: 2px solid var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--primary-txt-color-light);
+  border: 2px solid #ffffff;
+  padding: 8px 24px;
+  font-weight: 500;
+}
+
+.btn-secondary:hover {
+  background-color: var(--primary-color);
+  color: var(--primary-txt-color-light);
+  border: 2px solid var(--primary-color);
+}
