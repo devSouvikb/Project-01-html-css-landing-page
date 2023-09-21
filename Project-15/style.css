@@ -289,3 +289,47 @@ input {
 .services-container p {
   margin: 20px 0 40px;
 }
+
+/* --------- team section --------- */
+.team {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.team-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team-head h3 {
+  width: 30%;
+}
+
+.team-head p {
+  width: 40%;
+}
+
+.team-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0;
+  gap: 20px;
+}
+
+.card-container {
+  width: calc(100% / 3);
+}
+
+.card-container img {
+  height: 500px;
+}
+
+.card-container h3 {
+  margin: 20px 0 10px;
+}
+
+.team-btn-container {
+  text-align: center;
+}
