@@ -150,3 +150,48 @@ nav .menue-icon {
 .nav-item a:hover {
   color: var(--primary-color);
 }
+
+/* ----------- hero section ----------- */
+.hero {
+  height: 85%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left-container {
+  width: 45%;
+}
+
+.hero-right-container {
+  width: 50%;
+}
+
+.hero-right-container h1 {
+  width: 95%;
+}
+
+.hero-right-container p {
+  color: var(--secondary-txt-color-light);
+  width: 75%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.input-container {
+  background-color: #ffffff;
+  padding: 8px 10px;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input {
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  margin-left: 5px;
+}
