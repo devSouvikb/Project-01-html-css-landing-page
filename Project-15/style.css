@@ -195,3 +195,62 @@ input {
   font-size: 16px;
   margin-left: 5px;
 }
+
+/* ----------- about section ----------- */
+.about {
+  width: 80%;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.about h2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.about-items-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 60px auto;
+}
+
+.about-item h3 {
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-icon-container {
+  position: absolute;
+  background-color: #ffffff;
+  color: var(--primary-color);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.icon-radius-1,
+.icon-radius-2 {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 2px solid #ffffff99;
+}
+
+.icon-radius-2 {
+  height: 200px;
+  width: 200px;
+}
