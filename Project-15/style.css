@@ -254,3 +254,38 @@ input {
   height: 200px;
   width: 200px;
 }
+
+/* --------- services section --------- */
+.services {
+  width: 80%;
+  margin: 200px auto;
+}
+
+.services h2 {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.services-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services-left-container {
+  width: 45%;
+}
+
+.services-right-container {
+  width: 45%;
+}
+
+.services-container h3 {
+  line-height: 48px;
+}
+
+.services-container p {
+  margin: 20px 0 40px;
+}
