@@ -402,3 +402,163 @@ hr {
   color: var(--primary-color);
   transform: translatex(8px);
 }
+
+/* media queries */
+@media (max-width: 426px) {
+  /* ----------- heading styles ------------ */
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  /* ------------ header ----------- */
+  header {
+    background: linear-gradient(to bottom, #000000cc, #00000046),
+      url(./assets/hero-img.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* ----------- navbar ----------- */
+  nav {
+    height: 10%;
+    width: 90%;
+  }
+
+  nav .menue-icon {
+    display: block;
+  }
+
+  .nav-links-container {
+    display: none;
+  }
+  /* ----------- hero section ----------- */
+  .hero {
+    height: 90%;
+    width: 90%;
+    text-align: center;
+  }
+
+  .hero-left-container {
+    display: none;
+  }
+
+  .hero-right-container,
+  .hero-right-container h1,
+  .hero-right-container p,
+  .input-container {
+    width: 100%;
+  }
+
+  .hero-right-container p {
+    color: #ffffffe6;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  .btn-form {
+    width: 160px;
+    padding: 12px 24px;
+  }
+
+  /* ----------- about section ----------- */
+  .about {
+    width: 90%;
+  }
+
+  .about h2,
+  .about-items-container {
+    width: 100%;
+  }
+
+  .icon-radius-1 {
+    height: 100px;
+    width: 100px;
+  }
+
+  .icon-radius-2 {
+    height: 150px;
+    width: 150px;
+  }
+
+  /* --------- services section --------- */
+  .services {
+    width: 90%;
+    margin: 100px auto;
+  }
+
+  .services h2 {
+    width: 100%;
+  }
+
+  .services-container {
+    flex-direction: column-reverse;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .col-reverse {
+    flex-direction: column;
+  }
+
+  .services-left-container,
+  .services-right-container {
+    width: 100%;
+  }
+
+  .services-container h3 {
+    line-height: 32px;
+  }
+
+  .services-container p {
+    margin: 10px 0 30px;
+  }
+
+  /* --------- team section --------- */
+  .team {
+    width: 90%;
+  }
+
+  .team-head {
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+
+  .team-head h2,
+  .team-head p {
+    width: 100%;
+  }
+
+  .team-cards-container {
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .card-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* -------------- footer -------------- */
+  .footer-head-container,
+  .footer-bottom-container {
+    width: 90%;
+    flex-direction: column;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  hr {
+    width: 90%;
+  }
+}
