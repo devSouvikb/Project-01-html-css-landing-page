@@ -1,0 +1,88 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
+/* font-family: 'Open Sans', sans-serif; */
+
+/* global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: var(--secondary-dark-txt-color);
+}
+
+:root {
+  --primary-color: #1bbcef;
+  --header-bg-color: #7030cc;
+  --card-bg-color: #6429b7;
+  --card1-bg-color: #faeaeb;
+  --card2-bg-color: #fbf0ee;
+  --card3-bg-color: #e9f4f6;
+  --card4-bg-color: #f2e7f5;
+  --primary-dark-txt-color: #010101;
+  --secondary-dark-txt-color: rgba(0, 0, 0, 0.7);
+  --primary-light-txt-color: #ffffff;
+  --secondary-light-txt-color: rgba(255, 255, 255, 0.7);
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* text styles */
+h1 {
+  font-size: 54px;
+  color: var(--primary-light-txt-color);
+  font-weight: 700;
+}
+
+h2,
+h3 {
+  color: var(--primary-dark-txt-color);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+p {
+  color: var(--secondary-dark-txt-color);
+  line-height: 28px;
+}
+
+/* button styles */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--primary-light-txt-color);
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 28px;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: transparent;
+  border: 2px solid var(--primary-light-txt-color);
+}
