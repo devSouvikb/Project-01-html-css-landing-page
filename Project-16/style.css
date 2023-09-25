@@ -165,3 +165,48 @@ nav .menue-icon {
   margin-top: 30px;
   color: var(--secondary-light-txt-color);
 }
+
+/* --------- features section --------- */
+.features {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.features-left-container,
+.features-right-container {
+  width: 50%;
+}
+
+.features-right-container h2 {
+  margin-bottom: 40px;
+}
+
+.features-right-container h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.features-right-container p {
+  margin-left: 45px;
+}
+
+.share-icon {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.color-one {
+  color: #f28a3f;
+}
+
+.color-two {
+  color: #7aca3a;
+}
+
+.color-three {
+  color: #3f9cf2;
+}
