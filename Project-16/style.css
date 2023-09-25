@@ -93,3 +93,49 @@ header {
   width: 100%;
   background-color: var(--header-bg-color);
 }
+
+/* --------- navbar --------- */
+nav {
+  height: 15%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav,
+.nav-container,
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container {
+  gap: 80px;
+}
+
+.nav-list {
+  gap: 40px;
+}
+
+.nav-item a {
+  color: var(--primary-light-txt-color);
+  transition: all 0.2s ease-in-out;
+}
+
+.nav-item a:hover {
+  color: var(--primary-color);
+  border-bottom: 1px solid #f892f8;
+}
+
+.nav-active a {
+  border-bottom: 1px solid #f892f8;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+nav .menue-icon {
+  color: #ffffff;
+  font-size: 32px;
+  display: none;
+  cursor: pointer;
+}
