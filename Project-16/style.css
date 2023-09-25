@@ -210,3 +210,84 @@ nav .menue-icon {
 .color-three {
   color: #3f9cf2;
 }
+
+/* --------- services section --------- */
+.services {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.services h2 {
+  width: 55%;
+  margin: 0 auto;
+}
+
+.services-cards-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-container {
+  height: 320px;
+  width: 220px;
+  border-radius: 24px;
+  box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.card-container:hover {
+  transform: scale(1.1);
+}
+
+.card-container img {
+  padding: 20px;
+}
+
+.card-img-container {
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.img-color-two {
+  background-color: var(--card2-bg-color);
+}
+
+.img-color-three {
+  background-color: var(--card3-bg-color);
+}
+
+.img-color-four {
+  background-color: var(--card4-bg-color);
+}
+
+.card-active {
+  background-color: var(--card-bg-color);
+  border-radius: 24px;
+}
+
+.card-active .card-head {
+  color: var(--primary-light-txt-color);
+}
+
+.card-active p {
+  color: var(--secondary-light-txt-color);
+}
+
+.card-head {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--primary-dark-txt-color);
+  margin-bottom: -20px;
+}
+
+.card-txt-container p {
+  padding: 20px;
+}
