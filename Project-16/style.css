@@ -291,3 +291,92 @@ nav .menue-icon {
 .card-txt-container p {
   padding: 20px;
 }
+
+/* ---------- media queries ---------- */
+@media (max-width: 426px) {
+  /* heading styles */
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  /* --------- navbar --------- */
+  nav {
+    height: 10%;
+    width: 90%;
+  }
+
+  .nav-container {
+    display: none;
+  }
+
+  nav .menue-icon {
+    display: block;
+  }
+
+  /* --------- hero section --------- */
+  .hero {
+    height: 90%;
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .hero-left-container,
+  .hero-right-container {
+    width: 100%;
+  }
+
+  .hero-left-container p {
+    display: none;
+  }
+
+  .hero-right-container img {
+    padding-bottom: 40px;
+  }
+
+  /* --------- features section --------- */
+  .features {
+    width: 90%;
+    gap: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .features-left-container,
+  .features-right-container {
+    width: 100%;
+  }
+
+  .features-right-container h2 {
+    text-align: center;
+  }
+
+  .features-right-container p {
+    margin-left: 30px;
+  }
+
+  .share-icon {
+    margin-right: 8px;
+    font-size: 20px;
+  }
+
+  /* --------- services section --------- */
+  .services {
+    width: 90%;
+  }
+
+  .services h2 {
+    width: 100%;
+  }
+
+  .services-cards-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
