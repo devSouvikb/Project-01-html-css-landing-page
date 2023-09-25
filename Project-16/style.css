@@ -86,3 +86,10 @@ p {
   background-color: transparent;
   border: 2px solid var(--primary-light-txt-color);
 }
+
+/* --------- header --------- */
+header {
+  height: 100%;
+  width: 100%;
+  background-color: var(--header-bg-color);
+}
