@@ -150,3 +150,30 @@ nav .menu-icon {
   cursor: pointer;
   display: none;
 }
+
+/* --------- hero section --------- */
+.hero {
+  height: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-left-container,
+.hero-right-container {
+  width: 50%;
+}
+
+.hero-head {
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.hero-right-container h1 {
+  margin: 5px 0 20px 0;
+}
+
+.hero-right-container button {
+  margin-top: 60px;
+}
