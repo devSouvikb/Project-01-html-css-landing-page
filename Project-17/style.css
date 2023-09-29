@@ -290,3 +290,52 @@ nav .menu-icon {
   color: var(--primary-color);
   margin-bottom: 5px;
 }
+
+/* --------- project section --------- */
+.project {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.project-head-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.project-head-txt h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.project-cards-container + .project-cards-container {
+  margin-top: 80px;
+}
+
+.project-cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-card {
+  width: 500px;
+}
+
+.project-card-img {
+  height: 380px;
+  background-color: var(--element-bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-card-img img {
+  width: 80%;
+  height: 250px;
+}
+
+.project-card h3 {
+  margin: 20px 0 10px 0;
+}
