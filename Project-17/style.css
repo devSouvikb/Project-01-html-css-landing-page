@@ -339,3 +339,22 @@ nav .menu-icon {
 .project-card h3 {
   margin: 20px 0 10px 0;
 }
+
+/* --------- contact section --------- */
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  background-color: var(--element-bg-color);
+  padding: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-txt-container {
+  width: 70%;
+}
+
+.contact-txt-container h2 {
+  margin-bottom: 30px;
+}
