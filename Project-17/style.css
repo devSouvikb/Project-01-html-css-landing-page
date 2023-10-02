@@ -387,3 +387,150 @@ footer {
 .social-icon:hover {
   color: var(--primary-color);
 }
+
+/* --------- media queries --------- */
+@media (max-width: 426px) {
+  /* text styles */
+  h1 {
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  /* --------- header --------- */
+  header {
+    width: 90%;
+  }
+
+  /* --------- navbar --------- */
+  .nav-list {
+    display: none;
+  }
+
+  nav .menu-icon {
+    display: block;
+  }
+
+  /* --------- hero section --------- */
+  .hero-left-container {
+    display: none;
+  }
+
+  .hero-right-container {
+    width: 100%;
+  }
+
+  /* --------- about section --------- */
+  .about-cards-container {
+    width: 90%;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-card {
+    padding: 30px;
+    width: 320px;
+    height: 340px;
+  }
+
+  .about-card-active {
+    background-color: var(--primary-color);
+  }
+
+  .about-experience-container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .experience-left-container {
+    width: 320px;
+    height: 200px;
+  }
+
+  .experience-left-container h2 {
+    font-size: 54px;
+  }
+
+  .experience-right-container {
+    flex-direction: column;
+  }
+
+  .experience-card {
+    width: 320px;
+    height: 120px;
+  }
+
+  /* --------- project section --------- */
+  .project {
+    width: 90%;
+  }
+
+  .project-head-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-head-txt p {
+    margin: 20px 0 40px 0;
+  }
+
+  .project-cards-container {
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  .project-card {
+    width: 320px;
+  }
+
+  .project-card-img {
+    height: 280px;
+  }
+
+  .project-card-img img {
+    width: 80%;
+    height: 200px;
+  }
+
+  /* --------- contact section --------- */
+  .contact {
+    width: 90%;
+    padding: 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-txt-container {
+    width: 100%;
+  }
+
+  .contact-txt-container p {
+    margin-bottom: 40px;
+  }
+
+  /* --------- footer section --------- */
+  .footer-container {
+    width: 90%;
+    text-align: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  footer .nav-list {
+    display: block;
+  }
+
+  footer .nav-list li + li {
+    margin-top: 20px;
+  }
+}
