@@ -216,3 +216,12 @@ nav .menue-icon {
   font-size: 18px;
   width: 40%;
 }
+
+/* -------- logos section -------- */
+.logos {
+  margin-top: 80px;
+  padding: 60px 0;
+  background-color: var(--secondary-bg-dark-color);
+  display: flex;
+  justify-content: space-evenly;
+}
