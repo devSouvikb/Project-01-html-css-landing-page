@@ -100,3 +100,10 @@ button {
 button img {
   margin-left: 5px;
 }
+
+/* -------- header -------- */
+header {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
