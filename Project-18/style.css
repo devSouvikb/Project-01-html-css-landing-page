@@ -107,3 +107,61 @@ header {
   height: 100%;
   overflow: hidden;
 }
+
+/* -------- navbar -------- */
+nav {
+  width: 90%;
+  margin: 0 auto;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+.nav-item {
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-item::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: -5px;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: all 0.4s ease-in-out;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+}
+
+.nav-item-active {
+  font-weight: 500;
+}
+
+.nav-item-active::after {
+  width: 100%;
+}
+
+button + button {
+  margin-left: 40px;
+}
+
+.menue-icon {
+  color: var(--primary-color);
+  font-size: 36px;
+}
+
+nav .menue-icon {
+  display: none;
+}
