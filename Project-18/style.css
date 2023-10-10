@@ -442,3 +442,21 @@ nav .menue-icon {
 .banner-container span {
   color: #151515;
 }
+
+/* -------- footer -------- */
+footer {
+  width: 90%;
+  margin: 0 auto;
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-txt-container {
+  display: flex;
+  gap: 40px;
+}
+
+.footer-txt-container p {
+  cursor: pointer;
+}
