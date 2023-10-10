@@ -387,3 +387,58 @@ nav .menue-icon {
 .carousel-btn:hover {
   background-color: var(--primary-color);
 }
+
+/* -------- banner section -------- */
+.banner {
+  position: relative;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-bg-one {
+  width: 100%;
+  height: 600px;
+  background: url(./Assets/Photos/Rectangle\ 6773.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: -5;
+  position: absolute;
+}
+
+.banner-bg-two {
+  width: 100%;
+  height: 600px;
+  background: url(./Assets/Photos/Rectangle\ 6774.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  z-index: -2;
+}
+
+.banner-bg-diamonds {
+  display: flex;
+  justify-content: space-between;
+}
+
+.diamond-left {
+  align-self: flex-end;
+}
+
+.banner-container {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-container h1 {
+  margin-bottom: 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.banner-container span {
+  color: #151515;
+}
